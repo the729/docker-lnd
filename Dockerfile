@@ -3,7 +3,7 @@ FROM alpine:3.7
 LABEL name "Docker LND"
 LABEL maintainer "the729 <lnd.docker@wutj.info>"
 
-ARG LND_VERSION=0.4.1-beta
+ARG LND_VERSION=0.4.2-beta
 
 RUN cd /root && mkdir .lnd && \
     apk add --no-cache ca-certificates openssl tar && \
